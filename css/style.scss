@@ -1,0 +1,181 @@
+sass --watch style.scss style.css
+
+
+
+head {
+    padding: 20px;
+    box-shadow: 0 0 40px 0 #a3a1a1;
+    margin-top: 0px;  
+}
+
+section {
+    background-color: #e3e3e3;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+map {
+    position: relative;
+}
+
+map i {
+    margin-right: 10px;
+    padding-right: 10px;
+    justify-content: right;
+    }
+
+.book button {
+    text-align: center;
+    width: fit-content;
+    margin: 10px;
+    background-color: #9356dc;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 40px 0 #a3a1a1;
+    border: none;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside h3 {
+    text-align: left;
+    margin-left: 15px; 
+}
+
+aside mockbuttons {
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    justify-content: center;
+    padding: 10px 40px 10px 40px;
+    border-radius: 30px;
+    background-color: #f7f1f1;
+    box-shadow: 0 10px 30px 0px #a3a1a1;
+    border: none;
+    margin-bottom: 20px;
+} 
+
+.aside mockbuttons i {
+    position: relative;
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: 16px;
+    width: 10%;
+}
+
+.aside mockbuttons:hover {
+    color: #9356dc;  
+} 
+
+aside mockbuttons p{
+    width: 90%;  
+}
+
+.aside mockbuttons num{
+    background-color: #9356dc;
+    position: absolute;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    left: 0px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+/* Restaurant cards*/
+
+.restaurants {
+    margin: auto;
+    justify-content: center;
+} 
+
+.restaurants rest-body {
+    align-content: center;
+    max-width: 355px;
+    height: 300px;
+    border-top: 10px;
+    background-color: #f7f1f1;
+    box-shadow: 0 10px 30px 0px #a3a1a1;
+    border: none;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.restaurants rest-body img {
+    display: block;
+    width: 355px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.restaurants rest-body p {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.restaurants new {
+    position: absolute;
+    padding: 5px 17px;
+    border: none;
+    color: #205d4d;
+    background-color: #99e2d0;
+    left: 290px;
+    margin-top: 10px;
+    border-radius: 5px;  
+}
+
+.restaurants heart {
+    position: absolute;
+    font-weight: lighter;
+    left: 290px;
+    margin-top: 20px;
+}
+
+
+footer {
+    background-color: rgb(77, 75, 75);
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+
+footer img {
+    width: 150px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-right: 230px;
+}
+
+footer i {
+    color: white;
+    padding-right: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}  
