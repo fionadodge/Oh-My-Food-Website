@@ -492,8 +492,8 @@ body > main > div.menu_title > div:nth-child(2) {
   display: none;
   position: absolute;
   font-size: 30px;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 40%;
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -506,8 +506,8 @@ body > main > div.menu_title > div:nth-child(2) {
 .food_cards:hover .tick-box > i {
   display: block;
   animation: rotate-in 2s ease-out;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 40%;
 }
 
 @keyframes rotate-in {
@@ -515,15 +515,15 @@ body > main > div.menu_title > div:nth-child(2) {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 40%;
   }
   to {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 40%;
   }
 }
 @media only screen and (min-width: 768px) {
