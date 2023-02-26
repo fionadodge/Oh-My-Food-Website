@@ -279,6 +279,7 @@ body > main > div > div:nth-child(5) {
   body > main > div > h3 {
     width: 100%;
   }
+  
   .rest-heart-top.fa-solid.fa-heart.fa-2x {
     transform: translate(601%, 150%);
     z-index: 5;
@@ -300,6 +301,11 @@ body > main > div > div:nth-child(5) {
     z-index: 5;
   }
 }
+
+body > main > div.menu_title > div:nth-child(1) > h3{
+font-family: "Shrikhand";
+}
+
 body > main > div.menu_title {
   height: 77px;
 }
@@ -674,7 +680,7 @@ body > main > div.menu_title > div:nth-child(2) {
     z-index: -3;
   }
 }
-@-webkit-keyframes spin {
+-webkit-@keyframes spin {
   0% {
     opacity: 1;
     z-index: 8;
@@ -990,7 +996,7 @@ body > main > div.menu_title {
     opacity: 1;
   }
 }
-@-moz-keyframes fadeIn {
+-moz-@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -998,7 +1004,7 @@ body > main > div.menu_title {
     opacity: 1;
   }
 }
-@-webkit-keyframes fadeIn {
+-webkit-@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1006,7 +1012,7 @@ body > main > div.menu_title {
     opacity: 1;
   }
 }
-@-o-keyframes fadeIn {
+-o-@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1014,7 +1020,7 @@ body > main > div.menu_title {
     opacity: 1;
   }
 }
-@-ms-keyframes fadeIn {
+-ms-@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1022,6 +1028,7 @@ body > main > div.menu_title {
     opacity: 1;
   }
 }
+
 body > main > div.menu_title > div:nth-child(1) > h3 {
   font-family: "Shrikhand", cursive;
   font-size: 30px;
@@ -1086,7 +1093,7 @@ body > main > div.main_dish {
     opacity: 1;
   }
 }
-@-moz-keyframes fadeIn {
+-moz-@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1094,7 +1101,7 @@ body > main > div.main_dish {
     opacity: 1;
   }
 }
-@-webkit-keyframes fadeIn {
+-webkit-@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1102,7 +1109,7 @@ body > main > div.main_dish {
     opacity: 1;
   }
 }
-@-o-keyframes fadeIn {
+-o-@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1110,7 +1117,7 @@ body > main > div.main_dish {
     opacity: 1;
   }
 }
-@-ms-keyframes fadeIn {
+-ms-@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1145,7 +1152,7 @@ body > main > div.desserts {
     opacity: 1;
   }
 }
-@-moz-keyframes fadeIn {
+-moz-@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1153,7 +1160,7 @@ body > main > div.desserts {
     opacity: 1;
   }
 }
-@-webkit-keyframes fadeIn {
+-webkit-@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1161,7 +1168,7 @@ body > main > div.desserts {
     opacity: 1;
   }
 }
-@-o-keyframes fadeIn {
+-o-@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1169,7 +1176,7 @@ body > main > div.desserts {
     opacity: 1;
   }
 }
-@-ms-keyframes fadeIn {
+-ms-@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1193,7 +1200,7 @@ body > main > div.order {
   }
 }
 @media only screen and (min-width: 992px) {
-  #borderLeft {
+  .borderLeft {
     width: 50%;
     height: 3px;
     margin-bottom: 10px;
