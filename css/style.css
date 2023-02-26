@@ -680,7 +680,7 @@ body > main > div.menu_title > div:nth-child(2) {
     z-index: -3;
   }
 }
--webkit-@keyframes spin {
+@-webkit-keyframes spin {
   0% {
     opacity: 1;
     z-index: 8;
@@ -977,7 +977,7 @@ body > main > div.menu_title {
   font-family: "Shrikhand", cursive;
 }
 
-#heart {
+.heart {
   padding: 5px;
   position: relative;
 }
@@ -996,7 +996,7 @@ body > main > div.menu_title {
     opacity: 1;
   }
 }
--moz-@keyframes fadeIn {
+@-moz-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1004,7 +1004,7 @@ body > main > div.menu_title {
     opacity: 1;
   }
 }
--webkit-@keyframes fadeIn {
+@-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1012,7 +1012,7 @@ body > main > div.menu_title {
     opacity: 1;
   }
 }
--o-@keyframes fadeIn {
+@-o-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1020,7 +1020,7 @@ body > main > div.menu_title {
     opacity: 1;
   }
 }
--ms-@keyframes fadeIn {
+@-ms-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1093,7 +1093,7 @@ body > main > div.main_dish {
     opacity: 1;
   }
 }
--moz-@keyframes fadeIn {
+@-moz-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1101,7 +1101,7 @@ body > main > div.main_dish {
     opacity: 1;
   }
 }
--webkit-@keyframes fadeIn {
+@-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1109,7 +1109,7 @@ body > main > div.main_dish {
     opacity: 1;
   }
 }
--o-@keyframes fadeIn {
+@-o-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1117,7 +1117,7 @@ body > main > div.main_dish {
     opacity: 1;
   }
 }
--ms-@keyframes fadeIn {
+@-ms-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1152,7 +1152,7 @@ body > main > div.desserts {
     opacity: 1;
   }
 }
--moz-@keyframes fadeIn {
+@-moz-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1160,7 +1160,7 @@ body > main > div.desserts {
     opacity: 1;
   }
 }
--webkit-@keyframes fadeIn {
+@-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1168,7 +1168,7 @@ body > main > div.desserts {
     opacity: 1;
   }
 }
--o-@keyframes fadeIn {
+@-o-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1176,7 +1176,7 @@ body > main > div.desserts {
     opacity: 1;
   }
 }
--ms-@keyframes fadeIn {
+@-ms-keyframes fadeIn {
   0% {
     opacity: 0;
   }
