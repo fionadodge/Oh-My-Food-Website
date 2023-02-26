@@ -492,8 +492,8 @@ body > main > div.menu_title > div:nth-child(2) {
   display: none;
   position: absolute;
   font-size: 30px;
-  top: 40%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%) rotate(360deg);
   -webkit-transform: translate(-50%, -50%) rotate(360deg);
   -moz-transform: translate(-50%, -50%) rotate(360deg);
