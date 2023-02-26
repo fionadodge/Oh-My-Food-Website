@@ -506,6 +506,8 @@ body > main > div.menu_title > div:nth-child(2) {
 .food_cards:hover .tick-box > i {
   display: block;
   animation: rotate-in 2s ease-out;
+  top: 50%;
+  left: 50%;
 }
 
 @keyframes rotate-in {
