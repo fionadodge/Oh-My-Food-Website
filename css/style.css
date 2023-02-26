@@ -42,7 +42,7 @@ body > header > div > div:nth-child(1) > a > i {
 .book button:hover {
   box-shadow: 0 0 40px 0 #575656;
   transform: scale(1.05);
-  background-image: linear-gradient(to top);
+  background-image: linear-gradient(to top, #9356dc 0%, #fbc2eb 100%);
   opacity: 0.8;
 }
 
@@ -79,7 +79,6 @@ body > aside > button:hover {
   box-shadow: 0 0 40px 0 #575656;
   transform: scale(1.05);
   color: #9356dc;
-  font-style: black;
 }
 
 .body > aside > div:nth-child(3) > i {
@@ -363,7 +362,6 @@ body > main > div.desserts > div:nth-child(5) {
   margin-bottom: 10px;
   width: 70%;
   height: 26px;
-  white-space: wrap;
   text-overflow: ellipsis;
 }
 
@@ -485,7 +483,7 @@ body > main > div.menu_title > div:nth-child(2) {
   font-size: 30px;
   top: 40%;
   left: 40%;
-  transform: translate(-50, -50%) rotate(360deg);
+  transform: translate(-50%, -50%) rotate(360deg);
   transition: all 0.5s ease;
   color: white;
 }
