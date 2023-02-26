@@ -456,14 +456,18 @@ body > main > div.menu_title > div:nth-child(2) {
   border: 1px solid #99E2D0;
   transform: translateX(100%);
   -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
   opacity: 0;
   transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
   animation-delay: 0.5s;
 }
 
 .food_cards:hover .tick-box {
   transform: translateX(0);
   -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
   opacity: 1;
   animation: slide-in 2s ease-out;
 }
@@ -473,11 +477,13 @@ body > main > div.menu_title > div:nth-child(2) {
   from {
     transform: translateX(100%);
     -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
     opacity: 0;
   }
   to {
     transform: translateX(0);
     -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
     opacity: 1;
   }
 }
@@ -490,7 +496,10 @@ body > main > div.menu_title > div:nth-child(2) {
   left: 40%;
   transform: translate(-50%, -50%) rotate(360deg);
   -webkit-transform: translate(-50%, -50%) rotate(360deg);
+  -moz-transform: translate(-50%, -50%) rotate(360deg);
   transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
   color: white;
 }
 
@@ -503,16 +512,19 @@ body > main > div.menu_title > div:nth-child(2) {
   from {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
   }
 }
 @media only screen and (min-width: 768px) {
   .menu-heart-top.fa-solid.fa-heart.fa-2x {
     transform: translate(340%, -270%);
     -webkit-transform: translate(340%, -270%);
+    -moz-transform: translate(340%, -270%);
     z-index: 5;
     cursor: pointer;
   }
@@ -521,6 +533,7 @@ body > main > div.menu_title > div:nth-child(2) {
   .menu-heart-top.fa-solid.fa-heart.fa-2x {
     transform: translate(336%, -264%);
     -webkit-transform: translate(336%, -264%);
+    -moz-transform: translate(336%, -264%);
   }
   body > main > div.entrees {
     display: grid;
